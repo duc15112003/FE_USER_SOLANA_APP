@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { publicRoutes } from './component/route/index';
 import { DefaultLayout } from "./component/DefaultLayout/index";
+import {AuthLayout} from "./component/AuthLayout";
 
 function App() {
     return (
@@ -9,7 +10,10 @@ function App() {
             <div className="">
                 <Routes>
                     {publicRoutes.map((route, index) => {
-                        const Layout = DefaultLayout;
+                        let Layout = DefaultLayout;
+                        if(route.path ==="/user/register" || route.path==="/user/login"){
+                            Layout = AuthLayout;
+                        }
                         const Page = route.component;
                         return (
                             <Route
