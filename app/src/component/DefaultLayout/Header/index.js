@@ -33,10 +33,12 @@ const Header = () => {
                         <li><a href="#">Trang</a></li>
                         <li><a href="#">Về chúng tôi</a></li>
                         <li><a href="#">Khảo sát</a></li>
+                        <li><a href="user/register">Đăng ký</a></li>
+                        <li><a href="user/login">Đăng nhập</a></li>
                     </ul>
                 </nav>
                 <button className="menu-toggle" onClick={toggleMenu}>
-                    <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
+                <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
                 </button>
             </div>
         </header>
