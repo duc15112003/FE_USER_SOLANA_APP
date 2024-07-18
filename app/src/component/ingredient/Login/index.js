@@ -18,9 +18,11 @@ const AuthPage = () => {
             <div className="form-container register-container">
                 <form action="#">
                     <h1>Đăng ký tài khoản.</h1>
-                    <input type="text" placeholder="Name" />
-                    <input type="email" placeholder="Email" />
-                    <input type="password" placeholder="Password" />
+                    <div>
+                        <input type="text" placeholder="Name"/>
+                        <input type="email" placeholder="Email"/>
+                        <input type="password" placeholder="Password"/>
+                    </div>
                     <button>Đăng ký</button>
                     <span>hoặc</span>
                     <div className="social-container">
@@ -34,15 +36,17 @@ const AuthPage = () => {
             <div className="form-container login-container">
                 <form action="#">
                     <h1>Đăng Nhập</h1>
-                    <input type="email" placeholder="Email" />
-                    <input type="password" placeholder="Password" />
+                    <div>
+                        <input type="email" placeholder="Email"/>
+                        <input type="password" placeholder="Password"/>
+                    </div>
                     <div className="content">
                         <div className="checkbox">
-                            <input type="checkbox" name="checkbox" id="checkbox" />
-                            <label>nhớ mật khẩu</label>
+                        <input type="checkbox" name="checkbox" id="checkbox" />
+                            <label>Nhớ mật khẩu</label>
                         </div>
                         <div className="pass-link">
-                            <a href="#">quên mật khẩu?</a>
+                            <a href="#">Quên mật khẩu?</a>
                         </div>
                     </div>
                     <button>Đăng nhập</button>
