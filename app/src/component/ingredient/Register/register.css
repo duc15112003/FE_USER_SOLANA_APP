@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-body{
-    background: -webkit-linear-gradient(left, #bdc3c7, #2c3e50) !important;
-}
+
 .form>*{
+    background: -webkit-linear-gradient(left, #bdc3c7, #2c3e50) !important;
     font-family: "Inter", sans-serif !important;
 }
 a{
