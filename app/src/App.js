@@ -11,7 +11,7 @@ function App() {
                 <Routes>
                     {publicRoutes.map((route, index) => {
                         let Layout = DefaultLayout;
-                        if(route.path ==="/user/register" || route.path==="/user/login"){
+                        if(route.path ==="/user/register" || route.path==="/user/login" || route.path ==="/user/forgotpassword"){
                             Layout = AuthLayout;
                         }
                         const Page = route.component;
