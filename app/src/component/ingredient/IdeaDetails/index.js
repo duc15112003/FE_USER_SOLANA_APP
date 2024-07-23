@@ -7,13 +7,27 @@ const IdeaDetails = () =>{
           <div className="container-fluid">
                 <div className="row">
                     <div className="col-xl-9 col-12">
+                        <div className="user-info-of-idea d-flex align-items-center">
+                            <a href="#">
+                                <div className="img-ava-user">
+                                    <img
+                                        src="https://static.vecteezy.com/system/resources/previews/002/275/847/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg"
+                                        alt=""/>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <span className="m-0 text-black">NhanDu123</span>
+                            </a>
+                        </div>
                         <div className="idea-info-details">
                             <h3>Category idea</h3>
                             <h1>HOME DESIGN CONSULTATION SERVICES hihdoHDOJDOWJNDOAdlkdnlklkwmld</h1>
                             <div className="description-idea">
                                 <div className="img-idea-details">
                                     <div className="control-img">
-                                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e5409433-9e19-438b-a37a-f4ee631c5b1f/dhjrjxc-a00f3df1-90e4-40bc-815d-c7c679f3c4bc.png/v1/fill/w_700,h_336,q_70,strp/there_are_coming_by_dmitrykovalenko_dhjrjxc-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjE1IiwicGF0aCI6IlwvZlwvZTU0MDk0MzMtOWUxOS00MzhiLWEzN2EtZjRlZTYzMWM1YjFmXC9kaGpyanhjLWEwMGYzZGYxLTkwZTQtNDBiYy04MTVkLWM3YzY3OWYzYzRiYy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.5HfoHGdM8A6Y2gMPf2sLpU0FUQZeuYoU1oDoWKkSl8Y" alt=""/>
+                                        <img
+                                            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e5409433-9e19-438b-a37a-f4ee631c5b1f/dhjrjxc-a00f3df1-90e4-40bc-815d-c7c679f3c4bc.png/v1/fill/w_700,h_336,q_70,strp/there_are_coming_by_dmitrykovalenko_dhjrjxc-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjE1IiwicGF0aCI6IlwvZlwvZTU0MDk0MzMtOWUxOS00MzhiLWEzN2EtZjRlZTYzMWM1YjFmXC9kaGpyanhjLWEwMGYzZGYxLTkwZTQtNDBiYy04MTVkLWM3YzY3OWYzYzRiYy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.5HfoHGdM8A6Y2gMPf2sLpU0FUQZeuYoU1oDoWKkSl8Y"
+                                            alt=""/>
                                     </div>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
@@ -33,7 +47,8 @@ const IdeaDetails = () =>{
                                     dolorem error fugit incidunt iusto libero, maxime natus nesciunt obcaecati odio
                                     odit optio perferendis porro recusandae sit soluta sunt tempora unde, vel veritatis,
                                     voluptates. Eos ex necessitatibus perferendis sequi voluptatibus. A ab ad architecto
-                                    aspernatur dolor dolorem, dolorum ducimus eligendi eveniet expedita harum illum modi,
+                                    aspernatur dolor dolorem, dolorum ducimus eligendi eveniet expedita harum illum
+                                    modi,
                                     mollitia nobis nostrum officia repellat, similique vel! Beatae quam, qui!</p>
                             </div>
                         </div>

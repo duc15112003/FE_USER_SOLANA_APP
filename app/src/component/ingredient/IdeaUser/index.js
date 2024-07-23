@@ -17,12 +17,16 @@ const IdeaUser = () => {
                                 </div>
                                 <div className="idea-info d-flex flex-column justify-content-between">
                                     <div className="user-info-of-idea d-flex align-items-center">
-                                        <div className="img-ava-user">
-                                            <img
-                                                src="https://static.vecteezy.com/system/resources/previews/002/275/847/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg"
-                                                alt=""/>
-                                        </div>
-                                        <span className="m-0">NhanDu123</span>
+                                        <a href="#">
+                                            <div className="img-ava-user">
+                                                <img
+                                                    src="https://static.vecteezy.com/system/resources/previews/002/275/847/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg"
+                                                    alt=""/>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <span className="m-0">NhanDu123</span>
+                                        </a>
                                     </div>
                                     <div className="idea-infor-user">
                                         <div className="title">
@@ -71,7 +75,7 @@ const IdeaUser = () => {
                 </div>
                 <div className="col-lg-6 col-md-12 col-12">
                     <div className="box-idea position-relative">
-                        <a href="#">
+                        <a href="ideas/details">
                             <div className="inside-box-idea position-relative">
                                 <div>
                                     <img className="img-idea"
@@ -80,12 +84,16 @@ const IdeaUser = () => {
                                 </div>
                                 <div className="idea-info d-flex flex-column justify-content-between">
                                     <div className="user-info-of-idea d-flex align-items-center">
-                                        <div className="img-ava-user">
-                                            <img
-                                                src="https://static.vecteezy.com/system/resources/previews/002/275/847/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg"
-                                                alt=""/>
-                                        </div>
-                                        <span className="m-0">NhanDu123</span>
+                                        <a href="#">
+                                            <div className="img-ava-user">
+                                                <img
+                                                    src="https://static.vecteezy.com/system/resources/previews/002/275/847/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg"
+                                                    alt=""/>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <span className="m-0">NhanDu123</span>
+                                        </a>
                                     </div>
                                     <div className="idea-infor-user">
                                         <div className="title">
@@ -111,7 +119,7 @@ const IdeaUser = () => {
                                                 libero obcaecati quod repellat voluptatem.</p>
                                         </div>
                                         <div className="d-flex align-items-center">
-                                            <a href="#" className="button-survey">
+                                            <a href="ideas/details" className="button-survey">
                                                 CONDUCT THIS SURVEY
                                             </a>
                                             <div className="line-between"></div>
@@ -134,7 +142,7 @@ const IdeaUser = () => {
                 </div>
                 <div className="col-lg-6 col-md-12 col-12">
                     <div className="box-idea position-relative">
-                        <a href="#">
+                        <a href="ideas/details">
                             <div className="inside-box-idea position-relative">
                                 <div>
                                     <img className="img-idea"
@@ -143,12 +151,16 @@ const IdeaUser = () => {
                                 </div>
                                 <div className="idea-info d-flex flex-column justify-content-between">
                                     <div className="user-info-of-idea d-flex align-items-center">
-                                        <div className="img-ava-user">
-                                            <img
-                                                src="https://static.vecteezy.com/system/resources/previews/002/275/847/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg"
-                                                alt=""/>
-                                        </div>
-                                        <span className="m-0">NhanDu123</span>
+                                        <a href="#">
+                                            <div className="img-ava-user">
+                                                <img
+                                                    src="https://static.vecteezy.com/system/resources/previews/002/275/847/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg"
+                                                    alt=""/>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <span className="m-0">NhanDu123</span>
+                                        </a>
                                     </div>
                                     <div className="idea-infor-user">
                                         <div className="title">
@@ -174,7 +186,7 @@ const IdeaUser = () => {
                                                 libero obcaecati quod repellat voluptatem.</p>
                                         </div>
                                         <div className="d-flex align-items-center">
-                                            <a href="#" className="button-survey">
+                                            <a href="ideas/details" className="button-survey">
                                                 CONDUCT THIS SURVEY
                                             </a>
                                             <div className="line-between"></div>
@@ -197,7 +209,7 @@ const IdeaUser = () => {
                 </div>
                 <div className="col-lg-6 col-md-12 col-12">
                     <div className="box-idea position-relative">
-                        <a href="#">
+                        <a href="ideas/details">
                             <div className="inside-box-idea position-relative">
                                 <div>
                                     <img className="img-idea"
@@ -206,12 +218,16 @@ const IdeaUser = () => {
                                 </div>
                                 <div className="idea-info d-flex flex-column justify-content-between">
                                     <div className="user-info-of-idea d-flex align-items-center">
-                                        <div className="img-ava-user">
-                                            <img
-                                                src="https://static.vecteezy.com/system/resources/previews/002/275/847/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg"
-                                                alt=""/>
-                                        </div>
-                                        <span className="m-0">NhanDu123</span>
+                                        <a href="#">
+                                            <div className="img-ava-user">
+                                                <img
+                                                    src="https://static.vecteezy.com/system/resources/previews/002/275/847/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg"
+                                                    alt=""/>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <span className="m-0">NhanDu123</span>
+                                        </a>
                                     </div>
                                     <div className="idea-infor-user">
                                         <div className="title">
@@ -237,7 +253,7 @@ const IdeaUser = () => {
                                                 libero obcaecati quod repellat voluptatem.</p>
                                         </div>
                                         <div className="d-flex align-items-center">
-                                            <a href="#" className="button-survey">
+                                            <a href="ideas/details" className="button-survey">
                                                 CONDUCT THIS SURVEY
                                             </a>
                                             <div className="line-between"></div>
@@ -260,7 +276,7 @@ const IdeaUser = () => {
                 </div>
                 <div className="col-lg-6 col-md-12 col-12">
                     <div className="box-idea position-relative">
-                        <a href="#">
+                        <a href="ideas/details">
                             <div className="inside-box-idea position-relative">
                                 <div>
                                     <img className="img-idea"
@@ -269,12 +285,16 @@ const IdeaUser = () => {
                                 </div>
                                 <div className="idea-info d-flex flex-column justify-content-between">
                                     <div className="user-info-of-idea d-flex align-items-center">
-                                        <div className="img-ava-user">
-                                            <img
-                                                src="https://static.vecteezy.com/system/resources/previews/002/275/847/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg"
-                                                alt=""/>
-                                        </div>
-                                        <span className="m-0">NhanDu123</span>
+                                        <a href="#">
+                                            <div className="img-ava-user">
+                                                <img
+                                                    src="https://static.vecteezy.com/system/resources/previews/002/275/847/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg"
+                                                    alt=""/>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <span className="m-0">NhanDu123</span>
+                                        </a>
                                     </div>
                                     <div className="idea-infor-user">
                                         <div className="title">
@@ -300,7 +320,7 @@ const IdeaUser = () => {
                                                 libero obcaecati quod repellat voluptatem.</p>
                                         </div>
                                         <div className="d-flex align-items-center">
-                                            <a href="#" className="button-survey">
+                                            <a href="ideas/details" className="button-survey">
                                                 CONDUCT THIS SURVEY
                                             </a>
                                             <div className="line-between"></div>

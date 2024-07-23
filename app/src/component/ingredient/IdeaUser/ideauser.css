@@ -4,12 +4,22 @@
     font-family: "Poppins", sans-serif;
 }
 
+.idea-user p, .idea-user span, .idea-user a{
+    margin: 0;
+    text-shadow: unset;
+    text-decoration: none;
+}
+
 .idea-user>.container{
     box-shadow: unset;
     border-radius: unset;
 }
 
-.idea-user .col-6{
+.idea-user a{
+    text-decoration: none;
+}
+
+.idea-user .col-lg-6{
     padding: 6px;
 }
 
@@ -79,21 +89,22 @@
     height: 50px;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-bottom: 20px;
 }
 
-
-.user-info-of-idea>.img-ava-user{
+.idea-user .user-info-of-idea > a > .img-ava-user {
     width: 58px;
     height: 58px;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
-.user-info-of-idea>span{
+.idea-user .user-info-of-idea > a > span {
     font-size: 18px;
     margin-left: 15px !important;
     color: white;
 }
+
 
 .img-ava-user>img{
     width: 100%;
@@ -125,12 +136,16 @@
 }
 
 @media (min-width: 575px) and (max-width: 991px){
-    /*.ideas>*{*/
-    /*    padding-top: ;*/
-    /*}*/
 
     .idea-user>.container{
         max-width: unset;
+    }
+}
+
+@media (max-width: 991px) {
+    .idea-user .col-lg-6{
+        padding: unset;
+        margin-bottom: 12px;
     }
 }
 

@@ -5,9 +5,35 @@
     background-color: #f7fafc;
 }
 
-.idea-details p, .idea-details span{
+.idea-details .user-info-of-idea > a > .img-ava-user {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.idea-details .user-info-of-idea > a > span {
+    font-size: 18px;
+    padding-left: 0.5rem !important;
+    color: white;
+}
+
+.idea-details .user-info-of-idea > a > span:hover{
+    color: #6e61ff !important;
+}
+
+.idea-details .user-info-of-idea{
+    padding: 15px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 2px solid #f7fafc;
+}
+
+.idea-details p, .idea-details span, .idea-details a{
     margin: 0;
     text-shadow: unset;
+    text-decoration: none;
 }
 
 .container{
@@ -41,11 +67,10 @@
 }
 
 .idea-info-details{
-    margin-top: 40px;
     margin-bottom: 40px;
     background-color: white;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
 }
 
 .idea-feedback-user{
