@@ -46,7 +46,7 @@ const AuthPage = () => {
                             <label>Nhớ mật khẩu</label>
                         </div>
                         <div className="pass-link">
-                            <a href="#">Quên mật khẩu?</a>
+                            <a href="/user/forgotpassword">Quên mật khẩu?</a>
                         </div>
                     </div>
                     <button>Đăng nhập</button>
