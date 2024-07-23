@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.overlay-panel>p{
+    font-weight: normal;
+}
+
 .layouttong {
     display: flex;
     background-color: #f6f5f7;
