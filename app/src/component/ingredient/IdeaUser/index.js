@@ -8,7 +8,7 @@ const IdeaUser = () => {
             <div className="row ideas">
                 <div className="col-lg-6 col-md-12 col-12">
                     <div className="box-idea position-relative">
-                        <a href="#">
+                        <a href="ideas/details">
                             <div className="inside-box-idea position-relative">
                                 <div>
                                     <img className="img-idea"
@@ -48,7 +48,7 @@ const IdeaUser = () => {
                                                 libero obcaecati quod repellat voluptatem.</p>
                                         </div>
                                         <div className="d-flex align-items-center">
-                                            <a href="#" className="button-survey">
+                                            <a href="ideas/details" className="button-survey">
                                                 CONDUCT THIS SURVEY
                                             </a>
                                             <div className="line-between"></div>
