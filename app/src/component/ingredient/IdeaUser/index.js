@@ -164,8 +164,8 @@ const IdeaUser = () => {
                                     </div>
                                     <div className="idea-infor-user">
                                         <div className="title">
-                                            <h3>CATEGORY IDEA</h3>
-                                            <h1>HOME DESIGN CONSULTATION SERVICES</h1>
+                                            <h3>Ý Tưởng</h3>
+                                            <h1>Dự án phát triển phần mềm đặt tour du lịch, khách sạn</h1>
                                         </div>
                                         <div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem
@@ -187,7 +187,7 @@ const IdeaUser = () => {
                                         </div>
                                         <div className="d-flex align-items-center">
                                             <a href="ideas/details" className="button-survey">
-                                                CONDUCT THIS SURVEY
+                                                Tiến Hành Khảo Sát
                                             </a>
                                             <div className="line-between"></div>
                                             <div className="the-number d-flex flex-column">
@@ -231,7 +231,7 @@ const IdeaUser = () => {
                                     </div>
                                     <div className="idea-infor-user">
                                         <div className="title">
-                                            <h3>CATEGORY IDEA</h3>
+                                            <h3>Ý Tưởng</h3>
                                             <h1>HOME DESIGN CONSULTATION SERVICES</h1>
                                         </div>
                                         <div>
@@ -254,7 +254,7 @@ const IdeaUser = () => {
                                         </div>
                                         <div className="d-flex align-items-center">
                                             <a href="ideas/details" className="button-survey">
-                                                CONDUCT THIS SURVEY
+                                                Tiến Hành Khảo Sát
                                             </a>
                                             <div className="line-between"></div>
                                             <div className="the-number d-flex flex-column">
@@ -298,7 +298,7 @@ const IdeaUser = () => {
                                     </div>
                                     <div className="idea-infor-user">
                                         <div className="title">
-                                            <h3>CATEGORY IDEA</h3>
+                                            <h3>Ý TƯỞNG</h3>
                                             <h1>HOME DESIGN CONSULTATION SERVICES</h1>
                                         </div>
                                         <div>
@@ -321,7 +321,7 @@ const IdeaUser = () => {
                                         </div>
                                         <div className="d-flex align-items-center">
                                             <a href="ideas/details" className="button-survey">
-                                                CONDUCT THIS SURVEY
+                                                Tiến Hành Khảo Sát
                                             </a>
                                             <div className="line-between"></div>
                                             <div className="the-number d-flex flex-column">

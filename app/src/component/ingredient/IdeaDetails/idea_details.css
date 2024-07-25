@@ -178,7 +178,10 @@
     margin-bottom: 0;
     font-weight: 600;
 }
-
+.btn-feedback a:hover {
+    background-color: lightpink; /* Màu nền khi hover */
+    color: deeppink; /* Đảm bảo màu chữ vẫn là trắng khi hover */
+}
 @media (max-width: 1199px) {
     .idea-feedback-user{
         margin-top: 0;

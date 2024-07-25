@@ -1,7 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import './idea_details.css'
 
 const IdeaDetails = () =>{
+    const [timeLeft, setTimeLeft] = useState(3600*24); // 1 giờ (3600 giây)
+
+    useEffect(() => {
+        if (timeLeft > 0) {
+            const timer = setInterval(() => {
+                setTimeLeft(prevTime => prevTime - 1);
+            }, 1000);
+
+            // Cleanup interval on component unmount
+            return () => clearInterval(timer);
+        }
+    }, [timeLeft]);
+
+    const formatTime = (seconds) => {
+        const h = Math.floor(seconds / 3600);
+        const m = Math.floor((seconds % 3600) / 60);
+        const s = seconds % 60;
+        return `${h}h:${m}m:${s}s`;
+    };
   return(
       <div className="idea-details">
           <div className="container-fluid">
@@ -20,8 +39,8 @@ const IdeaDetails = () =>{
                             </a>
                         </div>
                         <div className="idea-info-details">
-                            <h3>Category idea</h3>
-                            <h1>HOME DESIGN CONSULTATION SERVICES hihdoHDOJDOWJNDOAdlkdnlklkwmld</h1>
+                            <h1>Ý tưởng</h1>
+                            <h2>Dự Án Phát Triển Phần Mềm Hỗ Trợ Nuôi Dạy Trẻ</h2>
                             <div className="description-idea">
                                 <div className="img-idea-details">
                                     <div className="control-img">
@@ -30,26 +49,8 @@ const IdeaDetails = () =>{
                                             alt=""/>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
-                                    aspernatur aut culpa delectus dignissimos, doloribus impedit labore,
-                                    magnam minima placeat tenetur unde! A alias aliquam aliquid asperiores
-                                    atque, consectetur culpa cumque debitis dolore doloribus ea eaque earum
-                                    eligendi enim esse eveniet ex facere fuga fugiat libero magnam magni mollitia
-                                    natus nostrum omnis porro provident quibusdam quo quod sapiente sequi sunt
-                                    temporibus totam ut velit veritatis vero! Ad aperiam error ipsa nesciunt
-                                    nulla quia similique vel veritatis, vitae? Aut autem cum dolores eligendi
-                                    expedita impedit inventore iste iusto, minima modi mollitia officia, optio
-                                    porro quia quo quod saepe sint unde veniam voluptas? Accusantium at aut consectetur
-                                    enim facere illo molestiae neque odio odit pariatur, recusandae reiciendis rerum
-                                    sapiente temporibus ullam unde, veritatis. Amet consectetur debitis deleniti
-                                    deserunt laboriosam magnam neque officiis quas quibusdam veritatis. Eos error,
-                                    fugiat fugit minima minus nemo possimus quaerat! Asperiores consequuntur debitis
-                                    dolorem error fugit incidunt iusto libero, maxime natus nesciunt obcaecati odio
-                                    odit optio perferendis porro recusandae sit soluta sunt tempora unde, vel veritatis,
-                                    voluptates. Eos ex necessitatibus perferendis sequi voluptatibus. A ab ad architecto
-                                    aspernatur dolor dolorem, dolorum ducimus eligendi eveniet expedita harum illum
-                                    modi,
-                                    mollitia nobis nostrum officia repellat, similique vel! Beatae quam, qui!</p>
+                                <p>Dự án phát triển phần mềm hỗ trợ nuôi dạy trẻ nhằm mục tiêu giúp các bậc cha mẹ và người giám hộ có công cụ hữu ích để theo dõi, quản lý và cải thiện quá trình nuôi dạy trẻ em.
+                                Theo dõi phát triển, quản lý các hoạt động thường ngày,giáo dục, học tập và tư vấn giúp trẻ phát triển một cách toàn diện</p>
                             </div>
                         </div>
                     </div>
@@ -60,15 +61,15 @@ const IdeaDetails = () =>{
                                     <div className="d-flex align-items-center">
                                         <i className="bi bi-currency-exchange me-2"></i>
                                         <p className="prize-money mb-0">
-                                            1000 <span className="unit">SOL</span>
+                                            1 <span className="unit">SOL</span>
                                         </p>
                                     </div>
-                                    <span>Prizes</span>
+                                    <span>Phần thưởng</span>
                                 </div>
                             </div>
                             <div className="col-12">
                                 <div className="input-feedback">
-                                    <textarea placeholder="Enter the feedback" name="feed-back" rows="10">
+                                    <textarea placeholder="Để lại phản hồi tại đây" name="feed-back" rows="10">
                                     </textarea>
                                 </div>
                             </div>
@@ -79,14 +80,14 @@ const IdeaDetails = () =>{
                                             <i className="bi bi-briefcase me-2"></i>
                                             <p className="remaining-feedback">15/100</p>
                                         </div>
-                                        <p>Submissions</p>
+                                        <p>Số phản hồi</p>
                                     </div>
                                     <div className="d-flex flex-column text-end">
                                         <div className="d-flex align-items-center">
                                             <i className="bi bi-stopwatch me-2"></i>
-                                            <p className="hours-idea">0h:0m:0s</p>
+                                            <p className="hours-idea">{formatTime(timeLeft)}</p>
                                         </div>
-                                        <p>Remaining</p>
+                                        <p>Thời gian còn lại</p>
                                     </div>
                                 </div>
                             </div>
