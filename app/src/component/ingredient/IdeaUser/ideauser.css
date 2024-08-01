@@ -13,6 +13,7 @@
 .idea-user>.container{
     box-shadow: unset;
     border-radius: unset;
+    position: unset;
 }
 
 .idea-user a{
