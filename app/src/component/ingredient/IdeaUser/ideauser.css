@@ -13,6 +13,7 @@
 .idea-user>.container{
     box-shadow: unset;
     border-radius: unset;
+    position: unset;
 }
 
 .idea-user a{
@@ -23,18 +24,18 @@
     padding: 6px;
 }
 
-.inside-box-idea{
+.idea-user .inside-box-idea{
     z-index: 0;
 }
 
-.inside-box-idea .img-idea{
+.idea-user .inside-box-idea .img-idea{
     height: 500px;
     width: 100%;
     object-fit: cover;
     object-position: 50% 50%;
 }
 
-.inside-box-idea>.idea-info{
+.idea-user .inside-box-idea>.idea-info{
     position: absolute;
     top: 0;
     right: 0;
@@ -47,12 +48,12 @@
     transition: opacity 0.3s ease-in-out;
 }
 
-.inside-box-idea:hover .idea-info{
+.idea-user .inside-box-idea:hover .idea-info{
     z-index: 0;
     opacity: 1;
 }
 
-.idea-infor-user .button-survey{
+.idea-user .idea-infor-user .button-survey{
     text-decoration: none;
     color: white;
     background-color: #757575;
@@ -62,7 +63,7 @@
     margin: 0;
 }
 
-.idea-infor-user>.title h3{
+.idea-user .idea-infor-user>.title h3{
     font-size: 17px;
     font-weight: 900;
     color: white;
@@ -70,7 +71,7 @@
     text-transform: uppercase;
 }
 
-.idea-infor-user>.title h1{
+.idea-user .idea-infor-user>.title h1{
     font-size: 29px;
     font-weight: 900;
     color: white;
@@ -78,7 +79,7 @@
     text-transform: uppercase;
 }
 
-.idea-infor-user p{
+.idea-user .idea-infor-user p{
     font-size: 17px;
     font-weight: normal;
     color: white;
@@ -106,14 +107,14 @@
 }
 
 
-.img-ava-user>img{
+.idea-user .img-ava-user>img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: 50% 50%;
 }
 
-.line-between{
+.idea-user .line-between{
     width: 4px;
     height: 58.5px;
     margin-right: 15px;
@@ -122,11 +123,11 @@
     border-radius: 2px;
 }
 
-.the-number span{
+.idea-user .the-number span{
     margin: 0;
 }
 
-.the-number>.quantity, .the-number>.award{
+.idea-user .the-number>.quantity, .the-number>.award{
     width: 70px;
     display: flex;
     justify-content: space-between;
