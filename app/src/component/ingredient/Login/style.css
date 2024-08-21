@@ -19,21 +19,21 @@
     height: 100vh;
 }
 
-h1 {
+.layouttong h1 {
     font-weight: 700;
     letter-spacing: -1.5px;
     margin: 0;
     margin-bottom: 15px;
 }
 
-h1.title {
+.layouttong h1.title {
     font-size: 45px;
     line-height: 45px;
     margin: 0;
     text-shadow: 0 0 10px rgba(16, 64, 74, 0.5);
 }
 
-p {
+.layouttong p {
     font-size: 14px;
     font-weight: 100;
     line-height: 20px;
@@ -42,12 +42,12 @@ p {
     text-shadow: 0 0 10px rgba(16, 64, 74, 0.5);
 }
 
-span {
+.layouttong span {
     font-size: 14px;
     margin-top: 25px;
 }
 
-a {
+.layouttong a {
     color: #333;
     font-size: 14px;
     text-decoration: none;
@@ -55,7 +55,7 @@ a {
     transition: 0.3s ease-in-out;
 }
 
-a:hover {
+.layouttong a:hover {
     color: #4bb6b7;
 }
 
@@ -85,7 +85,7 @@ a:hover {
     padding-left: 5px;
 }
 
-button {
+.layouttong button {
     position: relative;
     border-radius: 20px;
     border: 1px solid #4bb6b7;
@@ -100,50 +100,50 @@ button {
     transition: 0.3s ease-in-out;
 }
 
-button:hover {
+.layouttong button:hover {
     background-color: #4bb6b7;
     color: white;
 }
 
-button:active {
+.layouttong button:active {
     transform: scale(0.95);
 }
 
-button:focus {
+.layouttong button:focus {
     outline: none;
 }
 
-button.ghost {
+.layouttong button.ghost {
     background-color: rgba(225, 225, 225, 0.2);
     border: 2px solid #fff;
     color: #fff;
 }
 
-button.ghost i {
+.layouttong button.ghost i {
     position: absolute;
     opacity: 0;
     transition: 0.3s ease-in-out;
 }
 
-button.ghost i.register {
+.layouttong button.ghost i.register {
     right: 70px;
 }
 
-button.ghost i.login {
+.layouttong button.ghost i.login {
     left: 70px;
 }
 
-button.ghost:hover i.register {
+.layouttong button.ghost:hover i.register {
     right: 40px;
     opacity: 1;
 }
 
-button.ghost:hover i.login {
+.layouttong button.ghost:hover i.login {
     left: 40px;
     opacity: 1;
 }
 
-form {
+.layouttong form {
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -154,7 +154,7 @@ form {
     text-align: center;
 }
 
-input {
+.layouttong input {
     background-color: #eee;
     border-radius: 8px;
     border: 1px solid #ccc;
@@ -164,16 +164,16 @@ input {
     transition: border-color 0.3s ease-in-out;
 }
 
-input:first-child {
+.layouttong input:first-child {
     margin-top: 12px;
 }
 
-input:focus,
-input:hover {
+.layouttong input:focus,
+.layouttong input:hover {
     border-color: #4bb6b7;
 }
 
-.container {
+.layouttong .container {
     background-color: #fff;
     border-radius: 25px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
