@@ -32,9 +32,9 @@ const Header = () => {
                         <li><a href="/">Trang chủ</a></li>
                         <li><a href="#">Trang</a></li>
                         <li><a href="#">Về chúng tôi</a></li>
-                        <li><a href="user/ideas">Khảo sát</a></li>
-                        <li><a href="user/login">Đăng nhập</a></li>
-                        <li><a href="user/infor">Thông tin người dùng</a></li>
+                        <li><a href="http://localhost:3000/user/ideas">Khảo sát</a></li>
+                        <li><a href="http://localhost:3000/user/login">Đăng nhập</a></li>
+                        <li><a href="http://localhost:3000/user/infor">Thông tin người dùng</a></li>
                     </ul>
                 </nav>
                 <button className="menu-toggle" onClick={toggleMenu}>
